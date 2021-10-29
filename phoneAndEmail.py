@@ -1,6 +1,6 @@
 import pyperclip, re
 
-# Finds phone numbers and email addressed on the clipboard.
+# Finds phone numbers and email addresses on the clipboard.
 
 phoneRegex = re.compile(r'''(
     (\d{3}|\(\d{3}\))? # area code
