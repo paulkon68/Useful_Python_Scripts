@@ -1,7 +1,10 @@
+# Watermarks a pdf, with a watermaked (one-paged) pdf
+# You should provide both 
+
 import PyPDF2
 
-template = PyPDF2.PdfFileReader(open('super.pdf', 'rb'))
-watermark = PyPDF2.PdfFileReader(open('213_wtr.pdf', 'rb'))
+template = PyPDF2.PdfFileReader(open('<pdf_to_be_watermarked.pdf>', 'rb'))
+watermark = PyPDF2.PdfFileReader(open('<watermarked.pdf>', 'rb'))
 output = PyPDF2.PdfFileWriter()
 
 for i in range(template.getNumPages()):
