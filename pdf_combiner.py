@@ -1,3 +1,5 @@
+# Combines two or more pdfs, given the path from the terminal/command line
+
 import PyPDF2
 import sys
 
