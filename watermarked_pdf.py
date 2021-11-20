@@ -13,5 +13,5 @@ for i in range(template.getNumPages()):
     output.addPage(page)
 
 
-with open('watermarked.pdf', 'wb') as file:
+with open('new_watermarked.pdf', 'wb') as file:
     output.write(file)
