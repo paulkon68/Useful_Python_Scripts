@@ -1,1 +1,1 @@
-# **Useful Python scripts to automate boring work**
+### ***Useful Python scripts to automate boring work***
