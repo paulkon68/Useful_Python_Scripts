@@ -5,6 +5,7 @@ import hashlib
 import sys
 
 
+# Get the data from the request with the pwned passwords API
 def request_api_data(query_char):
     url = 'https://api.pwnedpasswords.com/range/' + query_char
     res = requests.get(url)
