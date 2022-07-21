@@ -24,6 +24,7 @@ text = str(pyperclip.paste())
 
 matches = []
 
+# the phones extracted should be in one format
 for groups in phoneRegex.findall(text):
     phoneNum = '-'.join([groups[1], groups[3], groups[5]])
     if groups[8] != '':
